@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>StudySync</title>
+    <link rel="stylesheet" href="login.css">
+</head>
+<body>
+     <main class="container">
+        <section class="left-panel">
+            <div class="content">
+                <h1>StudySync</h1>
+
+                <h2>Learn. Practice. Grow.</h2>
+
+                <p>
+                    Welcome back! Log in to continue your learning journey,
+                    track your progress and explore new courses.
+                </p>
+            </div>
+        </section>
+        <section class="right-panel">
+            <div class="login-card">
+                <div class="card-header">
+                    <h2>Welcome Back</h2>
+                    <p>Please login to your account</p>
+                </div>
+                <form id="loginForm">
+                    <div class="input-group">
+                        <label for="email">
+                            Email Address
+                        </label>
+                        <div class="input-field">
+                            <i class="fa-solid fa-envelope"></i>
+                            <input
+                                type="email"
+                                id="email"
+                                placeholder="Enter your email"
+                                required>
+                        </div>
+                    </div>
+                    <div class="input-group">
+                        <label for="password">
+                            Password
+                        </label>
+                        <div class="input-field">
+                            <i class="fa-solid fa-lock"></i>
+                            <input
+                                type="password"
+                                id="password"
+                                placeholder="Enter your password"
+                                required>
+                            <i class="fa-solid fa-eye toggle-password"></i>
+                        </div>
+                    </div>
+                    <div class="options">
+                        <label class="remember">
+                            <input type="checkbox">
+                            Remember Me
+                        </label>
+                        <a href="#">Forgot Password?</a>
+                    </div>
+                    <button type="submit" class="login-btn">
+                        Login
+                    </button>
+                </form>
+                <div class="divider">
+                    <span>OR</span>
+                </div>
+                <button class="google-btn">
+                    <i class="fa-brands fa-google"></i>
+                    Continue with Google
+                </button>
+                <div class="signup">
+                    <p>
+                        Don't have an account?
+                        <a href="signup.html">Sign Up</a>
+                    </p>
+                </div>
+            </div>
+        </section>
+    </main>
+</body>
+</html>
